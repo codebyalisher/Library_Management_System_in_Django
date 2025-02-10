@@ -9,3 +9,4 @@ def update_last_borrowed_date(sender, instance, **kwargs):
     for book in instance.books_borrowed.all():
         book.last_borrowed_date = timezone.now()
         book.save()
+        
