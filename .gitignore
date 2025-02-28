@@ -132,15 +132,12 @@ celerybeat.pid
 .venv
 .env/
 .venv/
-<<<<<<< HEAD
 .ENV/
 .env.bak/
 .venv.bak/
-=======
 ENV/
 env.bak/
 venv.bak/
->>>>>>> 5e0cc49e072c6df9a26929d727768dec1eab6191
 
 # Spyder project settings
 .spyderproject
